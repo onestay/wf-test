@@ -1,5 +1,7 @@
 FROM python:3.11
 
+LABEL org.opencontainers.image.source=https://github.com/onestay/wf-test
+
 RUN pip install poetry==1.6.1
 
 ENV POETRY_VIRTUALENVS_IN_PROJECT=1 \
